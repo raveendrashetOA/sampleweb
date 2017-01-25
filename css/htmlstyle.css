@@ -1,0 +1,56 @@
+<style>
+h1 
+	{
+    	color: white;
+    	text-align: center;
+    }
+p1 
+	{
+		position:absolute;
+		left:525px;
+    }
+p2 
+	{
+		position:absolute;
+		left:521px;	
+	}
+p4 
+	{
+		position:absolute;
+		left:473px;	
+	}
+body 
+	{
+    	font-family: verdana;
+    	font-size: 20px;
+		color: white;
+	}
+body.one 
+	{
+    	border-style: solid;
+    	border-width: 10px;
+    }
+p3 
+	{
+		width:150px;
+		height:25px;
+	}
+pw {
+	position:absolute;
+    left:138px;
+	width:199px;
+	height:25px;
+}
+myname {
+	position:absolute;
+	left:135px;
+	width:199px;
+	height:25px;
+}
+p5 
+	{
+		color: white;
+		position:absolute;
+		left:800px;	
+	}
+</style>
