@@ -6,7 +6,6 @@ function myfunc() {
 			second = document.getElementById('pw').value,
 			a = localStorage.getItem('password');
 		
-		alert(a);
 		if (first === "") {
 			alert("Username cannot be blank\nEnter a valid user name");
 		} else if (second === "") {

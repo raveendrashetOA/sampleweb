@@ -53,4 +53,19 @@ p5
 		position:absolute;
 		left:800px;	
 	}
+.textsiz {
+    height: auto;
+    width: auto; /* ie8 */
+}
+img {
+	max-width: 100%;
+    min-width: 1%;
+    height: auto;
+    width: 100%; /* ie8 */
+}
+.aa {
+	width: 300px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
 </style>
