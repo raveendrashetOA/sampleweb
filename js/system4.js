@@ -24,5 +24,5 @@ function submitform() {
 
 function setFocusToTextBox() {
 	"use strict";
-	document.getElementById("myname").focus();
+	document.getElementById("name").focus();
 }

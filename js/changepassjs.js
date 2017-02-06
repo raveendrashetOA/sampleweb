@@ -1,7 +1,6 @@
 /*jslint devel: true */
 function passchange() {
 	"use strict";
-	alert("HI");
 	var two = document.getElementById("newpw").value,
 		three = document.getElementById("confirmpw").value,
 		a;
@@ -21,4 +20,9 @@ function passchange() {
 		localStorage.password = a;
 		//document.getElementById("notes").innerHTML="Last name: " + localStorage.lastname;
 	}
+}
+
+function setFocusToTextBox() {
+	"use strict";
+	document.getElementById("newpw").focus();
 }
