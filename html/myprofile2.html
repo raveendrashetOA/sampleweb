@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head> 
+    <link rel="stylesheet" href="../css/myprofile2.css">
+    <script src= "../js/myprofile2.js"></script></head>
+<body>
+    <div id = "div1">
+        <ul>
+            <li onmouseover="hover(this)" onmouseout="hoveroff(this)">My Profile</li><br><br>
+            <li onmouseover="hover(this)" onmouseout="hoveroff(this)">Home</li><br><br>
+            <li onmouseover="hover(this)" onmouseout="hoveroff(this)">About Us</li><br><br>
+            <li onmouseover="hover(this)" onmouseout="hoveroff(this)">Contact Us</li>
+        </ul>
+        <div id = "div2">
+            <img src="../img/blured_profile_background.gif" width="100%" height="150pt">
+            <img id="profileimg" src="../img/profile.gif"> 
+            <p align = "center"; id="profilename">System Admin</p>
+            <h2>Personal Info
+                <button id="btnid" onclick="editable()" ><img  src="../img/edit_img.gif" id="edit" >Edit Profile</button>
+               
+                
+            </h2>
+            <div class="fieldnamesdiv">
+                <p class="fieldnames">First Name: </p>
+                <p class= "fieldnames">Last Name:</p>
+                <p class= "fieldnames">Contact:</p>
+                <p class = "fieldnames">Email:</p>
+                <p class= "fieldnames">Nationality:</p>
+                <p class="fieldnames">Date of Birth:</p>
+            </div>
+            <div class="fieldvaluesdiv">
+              <p>  <input class="class1" id="id1" readonly value="System"></p>
+              <p> <input class="class1"  readonly value="Admin"></p> 
+            <p><input class="class1"   readonly value="XXXXXXXX56"></p>
+            <p><input class="class1"   readonly value="admin@tutorials.com"></p>
+                <p><input class= "class1" readonly value="Indian"></p>
+                <p><input class= "class1" readonly value="Indian"></p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

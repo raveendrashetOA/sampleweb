@@ -1,9 +1,9 @@
 /*jslint devel: true */
-function myfunc() {
+function submitform() {
 	"use strict";
 	if (typeof (Storage) !== "undefined" && localStorage.password) {
-		var first = document.getElementById('myname').value,
-			second = document.getElementById('pw').value,
+		var first = document.getElementById('name').value,
+			second = document.getElementById('password').value,
 			a = localStorage.getItem('password');
 		
 		if (first === "") {
@@ -12,7 +12,7 @@ function myfunc() {
 			alert("Password cannot be blank\nEnter a password");
 		} else if (first === "system") {
 			if (second === a) {
-				window.location = "http://localhost:8777/e.bis/login.html";
+				window.open("../html/myprofile2.html");
 			} else {
 				alert("Password incorrect\nEnter a valid password");
 			}

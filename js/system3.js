@@ -1,15 +1,16 @@
 /*jslint devel: true */
-function myfunc() {
+function submitform() {
 	"use strict";
-	var first = document.getElementById('myname').value,
-	    second = document.getElementById('pw').value;
+	var first = document.getElementById('name').value,
+	    second = document.getElementById('password').value;
 	if (first === "") {
 		alert("Username cannot be blank\nEnter a valid user name");
 	} else if (second === "") {
 		alert("Password cannot be blank\nEnter a password");
 	} else if (first === "system") {
 		if (second === "system") {
-			window.location = "http://localhost:8777/e.bis/login.html";
+			alert("login succesfull");
+			window.open("../html/myprofile2.html");
 		} else {
 			alert("Password incorrect\nEnter a valid password");
 		}
@@ -20,5 +21,5 @@ function myfunc() {
 
 function setFocusToTextBox() {
 	"use strict";
-	document.getElementById("myname").focus();
+	document.getElementById("name").focus();
 }

@@ -1,8 +1,9 @@
 /*jslint devel: true */
 function passchange() {
 	"use strict";
-	var two = document.getElementById("newp").value,
-		three = document.getElementById("confp").value,
+	alert("HI");
+	var two = document.getElementById("newpw").value,
+		three = document.getElementById("confirmpw").value,
 		a;
 	if (two === "") {
 		alert("newpassword cannot be left empty");
@@ -16,7 +17,7 @@ function passchange() {
 	}
 		   }
 	if (typeof (Storage) !== "undefined") {
-		a = document.getElementById('confp').value;
+		a = document.getElementById('confirmpw').value;
 		localStorage.password = a;
 		//document.getElementById("notes").innerHTML="Last name: " + localStorage.lastname;
 	}
